@@ -13,13 +13,13 @@
 -------------------------------------------------------------------------------*/
 
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-weight: normal;
-    vertical-align: baseline;
-    background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
@@ -27,13 +27,13 @@ main, article, aside, figure, footer, header, nav, section, details, summary {di
 /* Handle box-sizing while better addressing child elements:
    http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
@@ -98,7 +98,7 @@ input[type="checkbox"] {vertical-align: bottom;}
 
 select, input, textarea {font: 99% sans-serif;}
 
-/*table {font-size: inherit; font: 100%;}*/
+table {font-size: inherit; font: 100%;}
 
 small {font-size: 85%;}
 
@@ -139,102 +139,3 @@ input[type=button] {width: auto; overflow: visible;}
 
 /* let's clear some floats */
 .clearfix:after { content: " "; display: block; clear: both; }
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.container {
-    display: flex;
-    padding: 5px 0;
-    width: 1000px;
-    margin: 0 auto;
-    border: 1px solid black;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.blue {
-    color: deepskyblue;
-}
-
-.nav_bar {
-    background: black;
-    width: 100%;
-    display: flex;
-}
-
-.nav_bar h1 {
-    color: ghostwhite;
-    padding: 5px;
-}
-
-.list {
-    display: flex;
-    /*justify-content: flex-end;*/
-}
-
-.list_item {
-    list-style: none;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-}
-
-.list_link {
-    color: ghostwhite;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 60px;
-}
-
-.subnav_link {
-    color: ghostwhite;
-    text-decoration: none;
-    display: block;
-}
-
-.nav_parent {
-    position: relative;
-}
-
-.nav_child {
-    position: absolute;
-}
-
-.dropdown {
-    padding-top: 30px;
-    padding-left: 40px;
-    position: absolute;
-
-}
-
-.subnav_item {
-    padding: 5px 20px;
-    background: black;
-    line-height: 35px;
-}
-
-.dropdown:before {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 20px solid black;
-    margin: 40px auto 0;
-    position: absolute;
-    content: "";
-    top: -25px;
-    left: 85px;
-}
-
-nav ul a:hover {
-    background-color: darkslategrey;
-    opacity: 0.75;
-    border-radius: 25%;
-    padding: 5px;
-}
-
-div:hover {
-    background: #e3e3e3;
-}
