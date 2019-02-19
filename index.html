@@ -11,11 +11,11 @@
 <header>
     <nav class="nav_bar">
         <div class="display container">
-            <h1>SIT <span>ON</span> CHAIR</h1>
+            <h1>SIT <span><strong>ON</strong></span> CHAIR</h1>
             <ul class="list">
                 <li class="list_item nav_parent">
                     <a class="list_link" href="#">O FIRMIE</a>
-                    <ul class="dropdown nav_child">
+                    <ul class="dropdown">
                         <li class="subnav_item">
                             <a class="subnav_link" href="#">Aktualności</a>
                         </li>
@@ -53,7 +53,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
-            <button>ZOBACZ WIĘCEJ</button>
+            <button class="button_main">ZOBACZ WIĘCEJ</button>
         </div>
     </div>
 </section>
@@ -64,7 +64,7 @@
         <div class="box_1">
             <div class="text_background">
                 <div class="underline">
-                    <p><b>Chair CLAIR</b></p>
+                    <p><strong>Chair CLAIR</strong></p>
                 </div>
             </div>
         </div>
@@ -72,14 +72,14 @@
         <div class="box_2">
             <div class="text_background">
                 <div class="underline">
-                    <p><b>Chair MARGARITA</b></p>
+                    <p><strong>Chair MARGARITA</strong></p>
                 </div>
             </div>
         </div>
         
         <div class="box_3">
             <div class="box_3_small">
-                <h2 class="underline"><b>Lorem ipsum dolor</b></h2>
+                <h2 class="underline"><strong>Lorem ipsum dolor</strong></h2>
                 <br>
                 <p>
                     Consectetur adipisicing elit, sed do eiusmod
@@ -96,16 +96,111 @@
 
     <!-- sekcja z cennikiem -->
 <section class="section_three">
-    <div class="container display">
+    <br>
+    <br>
+    <div class="container">
         <p class="underline">
             CENNIK
         </p>
+
+        <div class="display">
+            
+            <div class="box">
+                <p class="box_header">BASIC PLAN</p>
+                <p class="price strong">85<sup>99</sup></p> 
+                <p class="currency">PLN/MSC</p>
+                <p class="box_1-option1">Zakup towaru + dowóz</p>
+                <p class="box_1-option2">Serwis</p>
+                <div class="top_circle"></div>
+                <div class="inside_circle"></div>
+                <button class="btn1">DOŁĄCZ</button>
+            </div>
+        
+            <div class="box_middle">
+                <p class="box_header-middle">STANDARD PLAN</p>
+                <p class="price_middle strong">95<sup>99</sup></p>
+                <p class="currency_middle">PLN/MSC</p>
+                <p class="box_2-option1">Zakup towaru + dowóz</p>
+                <p class="box_2-option2">Serwis</p>
+                <p class="box_2-option3">Gwarancja 5 lat</p>
+                <div class="top_circle-middle"></div>
+                <div class="inside_circle-middle"></div>
+                <button class="btn2">DOŁĄCZ</button>
+            </div>
+        
+        
+            <div class="box">
+                <p class="box_header">ADVANCE PLAN</p>
+                <p class="price strong">211<sup>00</sup></p> 
+                <p class="currency">PLN/MSC</p>
+                <p class="box_3-option1">Zakup towaru + dowóz</p>
+                <p class="box_3-option2">Serwis</p>
+                <p class="box_3-option3">Gwarancja 6 lat</p>
+                <p class="box_3-option4">Porady projektanta</p>
+                <div class="top_circle"></div>
+                <div class="inside_circle"></div>
+                <button class="btn3">DOŁĄCZ</button>
+            </div>
+        </div>
     </div>
+
 </section>
 
     <!-- sekcja z formularzem -->
-    <section></section>
+<section class="section_four">
+    <div class="container">
+        <p class="underline">
+            KONTAKT
+        </p>
+        <div>
+            <form class="form display">
+                <div class="space_left">
+                    <label>
+                        <input type="text" name="name" placeholder="Imię">
+                    </label>
+                    <br>
+                    <label>
+                        <input type="email" name="email" placeholder="email">
+                    </label>
+                    <br>
+                    <label>
+                        <textarea cols="50" rows="7" placeholder="Wiadomość"></textarea>
+                    </label>
+                </div>
 
-    <footer></footer>
+                <div class="space_right">
+                    <div class="red_chair">
+                        <img src="images/red_chair.png">
+                    </div>
+                    <div class="checkbox">
+                        <img src="images/form_ok.jpg">
+                        <p class="permission">Zgadzam się na przetwarzanie danych osobowych</p>
+                    </div>
+                    <label>
+                        <input class="send_button" type="submit" name="send" value="WYŚLIJ">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+  <footer>
+      <div class="container display">
+        <div class="footer_left">
+            <p class="copyright">Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
+        </div>
+        <div class="footer_right">
+            <div class="media_images">
+                <img src="images/flickr.png">
+                <img src="images/vimeo.png">
+                <img src="images/pinterest.png">
+                <img src="images/twitter.png">
+            </div>
+            <p class="logo_left">SIT <span class="bold">ON</span> CHAIR</p>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
